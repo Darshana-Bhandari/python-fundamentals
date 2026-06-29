@@ -1,71 +1,99 @@
-#basic Python
-# Variable & data Type
+# BASIC PYTHON PRACTICE
+# Topics:
+# - Variables & Data Types
+# - Operators
+# - Type Conversion
+# - User Input
+# - Practice Questions
 
 
-print("darshana")
-print("my age is 19")
+# ---------------
+# Printing Output
+# ----------------
 
-print("Darshana." "my age is 19")
+print("Darshana")
+print("My age is 19")
+
+print("Darshana. My age is 19")
 print(23)
 print(32)
-print(23+32)
+print(23 + 32)
 
+# ------------------------
+# Variables and Data Types
+# -------------------------
 name = "Darshana"
 age = 23
 price = 25.99
+
 print(name)
 print(age)
 print(price)
 
-print("my name is: ", name)
-print("my age is: ",age)
-print("my price is: ", price)
+print("My name is:", name)
+print("My age is:", age)
+print("My price is:", price)
 
+# Copying variable value
 age2 = age
 print(age2)
 
+# Checking data types
 print(type(name))
 print(type(age))
 print(type(price))
- 
 
-name1= "darsu"
+# Different ways to create strings
+name1 = "darsu"
 name2 = 'darsu'
-name3= '''darsu'''
+name3 = '''darsu'''
 
 print(name1)
 print(name2)
 print(name3)
 
-age3= 23
+# Boolean and None data types
+age3 = 23
 old = False
-a= None
+a = None
+
 print(type(old))
 print(type(a))
 
+# ---------------------
+# Arithmetic Operations
+# ----------------------
+
 a = 3
-b= 8
-sum = a+b
-print(sum)
+b = 8
+
+result = a + b
+print("Addition:", result)
 
 c = 3
 d = 8
-sum = c-d
-print(sum)
 
-#arthmetic Operators
+result = c - d
+print("Subtraction:", result)
 
-E = 5
-F = 10
-print(E + F)
-print(E - F)
-print(E * F)
-print(E / F)
-print(E % F)
-print(E ** F)
+# ------------------------------------------
+# Arithmetic Operators
+# ------------------------------------------
 
-#Relational Operators
- 
+e = 5
+f = 10
+
+print("Addition:", e + f)
+print("Subtraction:", e - f)
+print("Multiplication:", e * f)
+print("Division:", e / f)
+print("Modulus:", e % f)
+print("Power:", e ** f)
+
+# ------------------------------------------
+# Relational Operators
+# ------------------------------------------
+
 g = 30
 h = 10
 
@@ -76,97 +104,110 @@ print(g >= h)
 print(g < h)
 print(g <= h)
 
-
-#assigment operators
+# ------------------------------------------
+# Assignment Operators
+# ------------------------------------------
 
 num = 10
-num = num + 10 
-print("num:",num)
+num = num + 10
+print("num:", num)
 
 pye = 10
 pye += 10
 print("pye:", pye)
 
-
-#logical operators
-#not
+# ------------------------------------------
+# Logical Operators
+# ------------------------------------------
 
 i = 50
 j = 30
+
+# NOT operator
 print(not False)
 print(not (i > j))
 
-#and
+# AND operator
 val1 = True
 val2 = False
-print("and operator:", val1 and val2)
- #or
-print("or operator:", val1 or val2)
 
-print("or operator:", (i == j) or (i > j))
+print("AND operator:", val1 and val2)
 
-#type conversion
+# OR operator
+print("OR operator:", val1 or val2)
+print("OR operator:", (i == j) or (i > j))
+
+# ------------------------------------------
+# Type Conversion
+# ------------------------------------------
+
 k = 2
 l = 4.24
-sum = k + l
-print("type conversion:", sum )
 
+result = k + l
+print("Type conversion:", result)
 
 ab = int("5")
 ba = 4.28
-sum = ab + ba 
-print(type(a))
-print("type conversion:", sum)
 
-#input in python
-input("enter your name: ")
-name = input("enter your surename: ")
-print("Thank you", name)
+result = ab + ba
+print(type(ab))
+print("Type conversion:", result)
 
-val = input("enter some value: ")
-print(type(val), val)
+# ------------------------------------------
+# User Input
+# ------------------------------------------
 
-int("5")
-val1 = int(input("enter somethingd: "))
-print(type(val1), val1)
+input("Enter your name: ")
 
+surname = input("Enter your surname: ")
+print("Thank you", surname)
 
-name = input("enter name:")
-age = input("enter age:")
-marks = input("enter marks:")
+value = input("Enter some value: ")
+print(type(value), value)
 
-print("welcome", name)
-print("age =", age)
-print("marks =", marks)
+value1 = int(input("Enter a number: "))
+print(type(value1), value1)
 
-#pratice Question
+# ------------------------------------------
+# User Information Program
+# ------------------------------------------
 
-first= int("enter first: ")
-second= int("enter second: ")
+name = input("Enter name: ")
+age = input("Enter age: ")
+marks = input("Enter marks: ")
 
-print("sum=", first + second )
+print("Welcome", name)
+print("Age =", age)
+print("Marks =", marks)
 
-side = float(input("enter square side: "))
-print("area =", side ** 2)
+# ==========================================
+# Practice Questions
+# ==========================================
 
-Y = float(input("enter first:"))
-Z = float(input("enter second:"))
+# Question 1: Sum of two numbers
 
-print("avg=", (Y + Z)/2)
+first = int(input("Enter first number: "))
+second = int(input("Enter second number: "))
 
-W = float(input("enter first:"))
-X = float(input("enter second:"))
+print("Sum =", first + second)
 
-print(a >=b )
+# Question 2: Area of a square
 
+side = float(input("Enter square side: "))
+print("Area =", side ** 2)
 
+# Question 3: Average of two numbers
 
+y = float(input("Enter first number: "))
+z = float(input("Enter second number: "))
 
+print("Average =", (y + z) / 2)
 
+# Question 4: Check if first number is greater than
+# or equal to second number
 
+w = float(input("Enter first number: "))
+x = float(input("Enter second number: "))
 
-
-
-
-
-
+print(w >= x)
