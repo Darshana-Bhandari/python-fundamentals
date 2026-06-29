@@ -146,6 +146,9 @@ second= int("enter second: ")
 
 print("sum=", first + second )
 
+side = float(input("enter square side: "))
+print("area =", side ** 2)
+
 
 
 
