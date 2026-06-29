@@ -118,6 +118,21 @@ sum = ab + ba
 print(type(a))
 print("type conversion:", sum)
 
+#input in python
+input("enter your name: ")
+name = input("enter your surename: ")
+print("Thank you", name)
+
+val = input("enter some value: ")
+print(type(val), val)
+
+int("5")
+val1 = int(input("enter somethingd: "))
+print(type(val1), val1)
+
+
+
+
 
 
 
