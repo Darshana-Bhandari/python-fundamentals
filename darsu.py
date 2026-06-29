@@ -154,6 +154,15 @@ Z = float(input("enter second:"))
 
 print("avg=", (Y + Z)/2)
 
+W = float(input("enter first:"))
+X = float(input("enter second:"))
+
+print(a >=b )
+
+
+
+
+
 
 
 
